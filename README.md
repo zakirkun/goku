@@ -1,5 +1,9 @@
 ## Goku (WIP; Author Only)
 
+<p align="center">
+  <img src="./goku.gif" />
+</p>
+
 ⚔ Personal Golang starter kit with an engineer research perspective, expressjs developer friendly, and aims for rapid app development.
 
 > ToDo is should be done iteratively
