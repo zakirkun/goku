@@ -1,4 +1,4 @@
-## Goku (WIP; Author Only)
+# Goku (WIP; Author Only)
 
 <p align="center">
   <img src="./goku.gif" />
@@ -24,11 +24,11 @@
 - [ ] Github Actions for integration testing on pull request and push.
 - [ ] Github Actions for golang linting on pull request and push.
 
-### Contribution
+## Contribution
 
 Any changes and contribution should be followed with proper research result.\
 Currently this repository doesn't accept any form of contributions, and will be closed with respect.
 
-### License
+## License
 
 License will be available soon.
