@@ -1,7 +1,8 @@
 package internal
 
 import (
-	router "goku/router"
+	"goku/router/api"
+	"goku/router/web"
 	"log"
 
 	"github.com/gofiber/fiber/v2"
@@ -15,8 +16,8 @@ func SetupMiddleware(app *fiber.App) {
 }
 
 func MountRoutes(app *fiber.App) {
-	app.Mount("/", router.BindDefaultRoutes())
-	app.Mount("/api", router.BindApiRoutes())
+	app.Mount("/", web.BindWebRoutes())
+	app.Mount("/api", api.BindApiRoutes())
 }
 
 func RunOnPort(port string) {
